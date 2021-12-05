@@ -31,3 +31,32 @@ Things I learnt:
 ### Deleting stuff
 1. In command mode, `x` deletes the current character that you are on. (can be undone with `u`)
 2. Deleting an entire line is `dd`. Yes, d is twice, doesn't have to be done quickly.
+
+
+## Day 4
+One thing that I have realised is slowing me down a lot in vim is the extremely slow navigation in a file. I currently only use the `hjkl` keys and `shit+a` for navigating through the entire file, and I feel I can things much faster. so today I am going away from the standard vim tutorial followed so far and going through videos that only focus on the navigation aspect.
+
+Things I learnt:
+**Vertical navigation**
+1. Moving viewport down by half a page, `ctrl+d` (also moves cursor)
+2. Moving viewport up by half a page, `ctrl+u` (also moves cursor)
+3. `{` which is equivalent to `shift+[`, moves cursor to the first empty line above the current cursor position. ( **Empty** means just one newline char, not even whitespace chars are allowed.
+4. Same thing with `}` but now you go down to the first empty line.'
+5. **Remember** like most commands in vim, typing a number in vim can be preced by a number to make them repeat multiple times. So `5j` goes down 5 lines.
+6. `gg` takes cursor to the very start of the file.
+7. `shift+g` or `G` will take you to the end of the file. (Cursor will be on the the first char of the last line).
+
+**Horizontal Navigation**
+1. `0` to move cursor to start of the line.
+2. `$` to move cursor to end of the line.
+3. `Shift+i` is insert at the start of the line, just like `shift+a` is insert at the end of the line.
+4. `w` goes to the start of the next word.
+5. `b` goes to the start of the prev word.
+
+I'm guessing this much is enough for today. I also setup my vimrc in `~/.vim/vimrc` and am remapping my arrow keys to <nop> so I can learn to use `hjkl` effectively. That is done using the following commands.
+```
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
+```
