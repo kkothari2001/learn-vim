@@ -26,7 +26,7 @@ Things I learnt:
 2. To undo multiple changes, we can use `nu` where n is a number. e.g `2u` is equivalent to doing u twice.
 3. `Ctrl+R` is redo, it brings back the latest changes that you undid.
 4. **Undo tree** in vim is very very powerful, so be careful of accidentally going wrong too.
-5. There are some vim plugins that help you traverse this complicated tree, I might se them later.
+5. There are some vim plugins that help you traverse this complicated tree, I might see them later.
 
 ### Deleting stuff
 1. In command mode, `x` deletes the current character that you are on. (can be undone with `u`)
