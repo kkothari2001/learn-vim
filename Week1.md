@@ -60,3 +60,6 @@ nnoremap <down> <nop>
 nnoremap <left> <nop>
 nnoremap <right> <nop>
 ```
+
+## Day 5
+Nothing much done today, I was only using a vim for normal text editing today and applied everything I learnt so far. I often confuse `gg` and `G`. I guess that will be solved with practise.
