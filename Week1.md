@@ -40,7 +40,7 @@ Things I learnt:
 **Vertical navigation**
 1. Moving viewport down by half a page, `ctrl+d` (also moves cursor)
 2. Moving viewport up by half a page, `ctrl+u` (also moves cursor)
-3. `{` which is equivalent to `shift+[`, moves cursor to the first empty line above the current cursor position. ( **Empty** means just one newline char, not even whitespace chars are allowed.
+3. `{` which is equivalent to `shift+[`, moves cursor to the first empty line above the current cursor position. ( **Empty** means just one newline char, not even whitespace chars are allowed.)
 4. Same thing with `}` but now you go down to the first empty line.'
 5. **Remember** like most commands in vim, typing a number in vim can be preced by a number to make them repeat multiple times. So `5j` goes down 5 lines.
 6. `gg` takes cursor to the very start of the file.
@@ -65,4 +65,7 @@ nnoremap <right> <nop>
 Nothing much done today, I was only using a vim for normal text editing today and applied everything I learnt so far. I often confuse `gg` and `G`. I guess that will be solved with practise.
 
 ## Day 6
-mothing much today either, made some changes to the config files and learnt a bit about vim plugins etc.
+Nothing much today either, made some changes to the config files and learnt a bit about vim plugins etc.
+
+## Day 7
+I use it extensively for my note taking now, I am pretty used to the commands now and have been practising a lot. Also, the `CapsLock` key is a nightmare, but on googling further, many vim users could be found cursing it. So I guess, I'm on the right track. :)
