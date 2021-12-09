@@ -20,3 +20,4 @@ Things I learnt:
 10. `shift+d` deletes till the end of the line, `shift+c` changes to the end of the line.
 
 I realise I need more pracitse on working with `w b e` but I'm hoping it comes with practise.
+I also just switched to nvim, it is not as difficult as I thought XD.
