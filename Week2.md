@@ -21,3 +21,6 @@ Things I learnt:
 
 I realise I need more pracitse on working with `w b e` but I'm hoping it comes with practise.
 I also just switched to nvim, it is not as difficult as I thought XD.
+
+## Day 2
+I didn't do much today, just worked with nvim a bit and setup `vim-plug` and installed a few basic plugins. I also realise that nvim has some better inbuilt features than just vim. So that's nice. I also learnt about the colourscheme and decided on the `dracula` theme.
