@@ -24,3 +24,16 @@ I also just switched to nvim, it is not as difficult as I thought XD.
 
 ## Day 2
 I didn't do much today, just worked with nvim a bit and setup `vim-plug` and installed a few basic plugins. I also realise that nvim has some better inbuilt features than just vim. So that's nice. I also learnt about the colourscheme and decided on the `dracula` theme.
+
+## Day 3
+I have not been able to do much, and even not able to log everything I learnt. Currently I am just daily driving vim for all the markdown notes that I take. I also explored a lot with some plugins.
+
+Things I learnt:
+1. `:e <filename>` opens that particular file in vim.
+2. In vim, copying is called `yanking`. This functionality can be used with the `y` key with a suitable modifier.
+3. The opposite of this is pasting, through `p`.
+
+## Day 4
+Day 3 parts are still pending. Will contnue them some other day, but right now I am focussing on navigating directories with vim.
+
+
