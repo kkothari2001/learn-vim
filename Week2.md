@@ -36,4 +36,13 @@ Things I learnt:
 ## Day 4
 Day 3 parts are still pending. Will contnue them some other day, but right now I am focussing on navigating directories with vim.
 
+Skipped a few days, so lets just assume that didn't happen 🤫
+
+## Day 3 continued and Day 5
+After some minor setbacks, I'm back to practising Vim and working on things I want to develop skills in. I will continue till I am able to daily drive easily in Vim.
+
+Thing I learnt today:
+1. We continue with the use of `y` to yank and `p` to paste.
+2. `yy` yanks the entire line, just like how `dd` deletes the line.
+3. However `shift+y` does not yank to the end of the line, like `shift+d` (which does delete fom current position to the end of the line). I don't like this and might change the mapping in the vimrc. Instead `shift+y` behaves exactly like `yy`!!
 
